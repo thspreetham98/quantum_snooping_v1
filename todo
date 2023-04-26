@@ -1,0 +1,8 @@
+- fixed delay on attacker circuit so that all circuits have same duration?
+- set results folder based on experiment.
+
+- time duration
+- fit data using ...
+
+- apply pulses to make it more sensitive to cnot
+- reverse 1-way cnot and see if we can determine the direction of CNOT
