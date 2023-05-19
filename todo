@@ -1,3 +1,5 @@
+- fixed marginal_counts ordering. the ordering i had before was incorrect!
+
 - fixed delay on attacker circuit so that all circuits have same duration?
 - set results folder based on experiment.
 
