@@ -48,7 +48,7 @@ while True:
             fname = "pickles/backend_properties/{}_{}.p".format(backend.name, str(last_update.timestamp()))
             print('Saved to: ', fname)
             pickle.dump(backend_properties, open(fname, "wb" ) )
-        next_update = current_time + timedelta(hours=1)
+        next_update = current_time + timedelta(minutes=10)
     else:
         time_diff = str(next_update - current_time)
         print("Job status:", job_status, ", Next Attempt in: ", time_diff[0:7], end='\r')
